@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+
+    
+  
+}
+.collapse{
+display: flex;
+justify-content: space-around;
+font-weight: bold;
+
+
+}
+.nav-item-nav{
+
+position: relative;
+left: 250px;
+}
+.collapse::after {
+        content: "";
+        background-color: rgb(250, 241, 241);
+        
+        height: 700px;
+        width: 250px;
+        position: absolute;
+        left: 850px;
+        z-index: -1; 
+    }
+   .textarea{
+    margin-top: 100px;
+   } 
+
+   .profile{
+    border-radius: 50%;
+    height: 50px;
+    margin-right: 5px;
+   }
+   .carousel-item{
+    margin-top: 55px;
+    
+    
+   }
+   .imag{
+    height: 350px;
+   }
+   .w1{
+    height: 70px;
+    border-radius: 10px;
+   }
+   .sec3{
+    margin-top: 60px;
+    
+   }
+   .secs3{
+    display: flex;
+   }
+   .secss3{
+    margin-top: 10px;
+    margin-left: 10px;
+   }
+   .pix{
+    margin-right: 40px;
+   }
+     .trend{
+    margin-top:30px ;
+   }
+   .card2 {
+    margin-top: 30px;
+    width: 350px;
+   }
+   .trend::before{
+    content: "";
+        background-color: rgb(250, 241, 241);
+        
+        height: 600px;
+        width: 800px;
+        position: absolute;
+        top: 600px;
+        right: 710px;
+        z-index: -1; 
+   }
+   .imge{
+    height: 230px;
+   }
+   .pick{
+    margin-top: 50px;
+   }
+   .editor{
+    margin-top: 150px;
+   }
+   .editor::after {
+    content: "";
+    background-color: rgb(250, 241, 241);
+    
+    height: 25rem;
+    width: 70rem;
+    position: absolute;
+    left:80px;
+    top: 90rem;
+    z-index: -1; 
+}
+.articles{
+    margin-top:8rem ;
+}
+.card3{
+    width: 70rem;
+}
+.logoo{
+    height: 40px;
+    width: 70px;
+}
+.content{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.insta{
+    display: flex;
+    justify-content: center;
+}
+@media screen {
+    .carousel-inner{
+        display: flex;
+    }
+    .carousel-item{
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/3);
+    }
+}
+.carousel-inner{
+    padding: 1em;
+}
+.card{
+    margin:0.5em
+}
+.img-wrapper{
+
+    height: 23vw;
+}
+.foooter{
+    background-color: black;
+    color: white;
+    margin:0px;
+    padding: 30px;
+}
+.mm{
+   margin:  10px;
+}
+.sizee{
+    width: 55rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
